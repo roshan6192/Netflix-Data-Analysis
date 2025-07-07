@@ -1,0 +1,12 @@
+prefix=e:/Projects/Netflix-Data-Analysis/ndataenv/Library
+exec_prefix=e:/Projects/Netflix-Data-Analysis/ndataenv/Library
+libdir=e:/Projects/Netflix-Data-Analysis/ndataenv/Library/lib
+includedir=e:/Projects/Netflix-Data-Analysis/ndataenv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: 
+Requires.private: 
+Cflags: -I${includedir} 

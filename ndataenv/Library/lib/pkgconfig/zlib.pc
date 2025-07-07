@@ -1,0 +1,13 @@
+prefix=E:/Projects/Netflix-Data-Analysis/ndataenv/Library
+exec_prefix=E:/Projects/Netflix-Data-Analysis/ndataenv/Library
+libdir=E:/Projects/Netflix-Data-Analysis/ndataenv/Library/lib
+sharedlibdir=E:/Projects/Netflix-Data-Analysis/ndataenv/Library/lib
+includedir=E:/Projects/Netflix-Data-Analysis/ndataenv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
